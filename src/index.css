@@ -98,23 +98,23 @@ body {
 
 p {
 	line-height: 1.5;
-	font-size: 16px;
+	font-size: 1.2rem;
 }
 
 h3 {
-	font-size: 35px;
+	font-size: 1.5rem;
 	text-transform: capitalize !important;
 }
 h4 {
-	font-size: 20px;
+	font-size:  1.2rem;
 	color: #389e85;
 }
 h5 {
-	font-size: 18px;
+	font-size: 1rem;
 }
 h1 {
 	text-align: center;
-	font-size: 50px;
+	font-size: 2.5rem;
 }
 li a {
 	text-decoration: none;
