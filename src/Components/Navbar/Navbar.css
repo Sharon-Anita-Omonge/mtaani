@@ -4,16 +4,18 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #f4f4f4;
+    background-color: #FAF9F6;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    font-family: Arial, sans-serif;
+  
   }
   
   /* Logo styling */
-  .navbar-logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #4CAF50; /* Green color for the logo */
+
+  .logo{
+    height: 4rem;
+    width: 8rem;
+    object-fit: cover;
+    margin-right: .2rem;
   }
   
   /* Navbar links */
@@ -33,13 +35,13 @@
   }
   
   .navbar-links li a:hover {
-    color: #4CAF50; /* Green hover effect */
+    color: var(--purple);
   }
   
   /* Donate button */
   .navbar-donate {
     padding: 0.5rem 1.5rem;
-    background-color: #4CAF50;
+    background-color: var(--green);
     color: white;
     border: none;
     border-radius: 5px;
@@ -49,6 +51,7 @@
   }
   
   .navbar-donate:hover {
-    background-color: #45a049; /* Slightly darker green */
+    background-color: var(--purple);
   }
+
   

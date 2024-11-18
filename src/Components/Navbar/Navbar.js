@@ -5,10 +5,10 @@ import logo from "../../assets/logo.jpg"
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="navbar-logo">
-        <img src={logo} alt=''/>
+      <div >
+        <img className="logo"src={logo} alt=''/>
         
-        Maisha Mtaani</div>
+      </div>
       <ul className="navbar-links">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About Us</a></li>
