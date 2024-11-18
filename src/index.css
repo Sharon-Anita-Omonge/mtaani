@@ -1,9 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+body, html {
+	font-family: "Inika", serif;
+	font-weight: 400;
+	font-style: normal;
+	background: #f5f5f5;
+
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
 }
+
 a {
 	color: #000;
 	text-decoration: none;
@@ -13,12 +19,9 @@ a {
 	color: var(--green);
 }
 
-body {
-	font-family: "Inika", serif;
-	font-weight: 400;
-	font-style: normal;
-	background: #f5f5f5;
-}
+
+	
+
 :root {
 	--purple: #85389e;
 	--green: #519e38;
