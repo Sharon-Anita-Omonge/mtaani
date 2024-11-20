@@ -1,0 +1,93 @@
+/* Container Styling */
+.about-container {
+    display: flex;
+    align-items: stretch; /* Ensures both sides are the same height */
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin-bottom: 5%;
+  }
+  
+  /* Left Section: Text & Collapsibles */
+  .about-left {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .about-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: var(--darkgreen);
+    text-align: start;
+  }
+  
+  .about-description {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+  }
+  
+  /* Collapsible Section */
+  .collapsible-section {
+    margin-top: 1rem;
+  }
+  
+  .collapsible-item {
+    margin-bottom: 1rem;
+  }
+  
+  .collapsible-header {
+    width: 100%;
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 1rem;
+    text-align: left;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .collapsible-header:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .collapsible-body {
+    padding: 1rem;
+    border: 1px solid #f1f1f1;
+    background-color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.6;
+    border-top: none;
+  }
+  
+  .collapsible-body ul {
+    margin: 0;
+    padding-left: 1.5rem;
+    list-style-type: disc;
+  }
+  
+  .collapsible-body ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Right Section: Image */
+  .about-right {
+    flex: 1;
+    max-width: 50%;
+    display: flex; /* Ensures image fills full height */
+    align-items: center;
+  }
+  
+  .about-image {
+    width: 100%;
+    height: 100%; /* Fills the container */
+    object-fit: cover; /* Ensures the image maintains its aspect ratio while filling */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
