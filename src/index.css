@@ -118,6 +118,7 @@ h5 {
 h1 {
 	text-align: center;
 	font-size: 2.5rem;
+	color: var(--darkgreen);
 }
 li a {
 	text-decoration: none;
