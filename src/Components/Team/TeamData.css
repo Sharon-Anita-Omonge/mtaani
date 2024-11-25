@@ -1,0 +1,82 @@
+:root {
+	--purple: #6a1b9a; /* Define a default purple color */
+}
+
+.team-container {
+	max-width: 1200px;
+	margin: 0 auto; /* Center the container */
+	padding: 20px;
+	font-family: Arial, sans-serif;
+}
+
+.team-content {
+	display: grid;
+	grid-template-columns: 1fr 2fr 2fr; /* Three sections: thumbnails, main image, details */
+	gap: 20px;
+	align-items: start;
+}
+
+.team-thumbnails {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr); /* Two thumbnails per row */
+	gap: 10px; /* Add spacing between thumbnails */
+}
+
+.thumbnail {
+	width: 80px; /* Set a fixed width for thumbnails */
+	height: 80px; /* Keep thumbnails square */
+	object-fit: cover; /* Crop thumbnails uniformly */
+	cursor: pointer;
+	border: 2px solid transparent; /* Default border */
+	transition: transform 0.3s ease; /* Smooth scaling effect */
+}
+
+.thumbnail:hover {
+	transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+.thumbnail.active {
+	border-color: var(--green);
+}
+
+.team-main-image {
+	text-align: center;
+}
+
+.selected-image {
+	width: 300px; /* Fixed width for main image */
+	height: 300px; /* Fixed height for main image */
+	object-fit: cover; /* Ensure the image fits nicely */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.team-details {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	text-align: left;
+	font-size: 16px;
+	color: #333;
+	line-height: 1.6;
+}
+
+.team-details h2 {
+	margin-bottom: 10px;
+	color: #222; /* Name */
+	font-size: 24px;
+}
+
+.team-details h3 {
+	margin-bottom: 15px;
+	color: #555; /* Role */
+	font-size: 20px;
+}
+
+.team-details p {
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+.team-details strong {
+	font-weight: bold; /* Highlight labels */
+}

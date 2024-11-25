@@ -10,6 +10,7 @@ import PrisonRehabilitation from './Components/ProgramsInfo/PrisonRehabilitation
 import RehabilitationRecovery from './Components/ProgramsInfo/RehabilitationRecovery';
 import SkillDevelopment from './Components/ProgramsInfo/SkillDevelopment';
 import VolunteerForm from './Components/Volunteer/VolunteerForm';
+import TeamPage from './Components/Team/TeamData';
 
 const App = () => {
 	return (
@@ -25,6 +26,7 @@ const App = () => {
 							<About />
 							<Causes />
 							<VolunteerForm />
+							<TeamPage />
 						</>
 					}
 				/>
