@@ -11,6 +11,7 @@ import RehabilitationRecovery from './Components/ProgramsInfo/RehabilitationReco
 import SkillDevelopment from './Components/ProgramsInfo/SkillDevelopment';
 import VolunteerForm from './Components/Volunteer/VolunteerForm';
 import TeamPage from './Components/Team/TeamData';
+import ContactForm from './Components/Contact/ContactForm';
 
 const App = () => {
 	return (
@@ -27,6 +28,7 @@ const App = () => {
 							<Causes />
 							<VolunteerForm />
 							<TeamPage />
+							<ContactForm />
 						</>
 					}
 				/>
