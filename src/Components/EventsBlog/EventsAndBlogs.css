@@ -1,0 +1,155 @@
+/* Layout */
+.events-blogs-container {
+	display: flex;
+	gap: 0;
+	padding: 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+	margin-bottom: 5%;
+}
+
+/* Events Section */
+.events-section {
+	flex: 2;
+	background-color: var(--green);
+	padding: 20px;
+}
+
+.events-section h1 {
+	color: var(--purple);
+	margin-bottom: 20px;
+}
+
+.event-item {
+	margin-bottom: 20px;
+	padding: 10px 0;
+	border-bottom: 1px solid #ddd;
+}
+
+.event-item:last-child {
+	border-bottom: none;
+}
+
+.event-date {
+	font-weight: bold;
+	color: #000;
+}
+
+.event-details h3 {
+	position: relative;
+	margin: 10px 0;
+	text-transform: capitalize !important;
+	color: #fff;
+	font-size: 1.8em;
+	animation: glow 2s ease-in-out infinite alternate;
+}
+
+/* Sparkling dots around the title */
+.event-details h3::before,
+.event-details h3::after {
+	content: '';
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background-color: gold; /* Color of the sparkles */
+	border-radius: 50%;
+	animation: sparkle 3s infinite ease-in-out;
+}
+
+/* Position one sparkle to the top-left */
+.event-details h3::before {
+	top: -20px;
+	left: -20px;
+	animation-delay: 0s;
+}
+
+/* Position the other sparkle to the bottom-right */
+.event-details h3::after {
+	bottom: -20px;
+	right: -20px;
+	animation-delay: 1s;
+}
+
+/* Glow effect for the title */
+@keyframes glow {
+	0% {
+		text-shadow: 0 0 5px #fff, 0 0 10px gold, 0 0 20px gold;
+	}
+	100% {
+		text-shadow: 0 0 10px #fff, 0 0 15px gold, 0 0 30px gold;
+	}
+}
+
+/* Sparkle animation for the dots */
+@keyframes sparkle {
+	0%,
+	100% {
+		transform: scale(1) translate(0, 0);
+		opacity: 1;
+	}
+	50% {
+		transform: scale(1.5) translate(5px, -5px);
+		opacity: 0.7;
+	}
+}
+
+.event-details p {
+	margin: 2px 0;
+	color: #fff;
+}
+
+/* Pagination */
+.pagination {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.pagination-dot {
+	width: 10px;
+	height: 10px;
+	background-color: #ccc;
+	border-radius: 50%;
+	margin: 0 5px;
+	cursor: pointer;
+}
+
+.pagination-dot.active {
+	background-color: var(--purple);
+}
+
+/* Blogs Section */
+.blogs-section {
+	flex: 1;
+	background-color: var(--purple);
+	color: white;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.blogs-section h2 {
+	margin-bottom: 15px;
+}
+
+.blogs-section p {
+	margin-bottom: 20px;
+}
+
+.blog-button {
+	background-color: white;
+	color: #2c7a7b;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.blog-button:hover {
+	background-color: var(--lightpurple);
+	color: white;
+}

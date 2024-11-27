@@ -1,12 +1,7 @@
-:root {
-	--purple: #6a1b9a; /* Define a default purple color */
-}
-
 .team-container {
 	max-width: 1200px;
 	margin: 0 auto; /* Center the container */
 	padding: 20px;
-	font-family: Arial, sans-serif;
 	margin-bottom: 5%;
 }
 
