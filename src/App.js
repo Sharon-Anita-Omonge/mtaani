@@ -13,6 +13,8 @@ import VolunteerForm from './Components/Volunteer/VolunteerForm';
 import TeamPage from './Components/Team/TeamData';
 import ContactForm from './Components/Contact/ContactForm';
 import EventsAndBlogs from './Components/EventsBlog/EventsAndBlogs';
+import Testimonial from './Components/Testimonial/Testimonial';
+import Gallery from './Components/Gallery/Gallery';
 
 const App = () => {
 	return (
@@ -30,6 +32,8 @@ const App = () => {
 							<VolunteerForm />
 							<TeamPage />
 							<EventsAndBlogs />
+							<Testimonial />
+							<Gallery />
 							<ContactForm />
 						</>
 					}
