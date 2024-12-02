@@ -15,6 +15,9 @@ import ContactForm from './Components/Contact/ContactForm';
 import EventsAndBlogs from './Components/EventsBlog/EventsAndBlogs';
 import Testimonial from './Components/Testimonial/Testimonial';
 import Gallery from './Components/Gallery/Gallery';
+import MainGallery from './Components/Gallery/MainGallery';
+import Footer from './Components/Footer/Footer';
+import ScrollToTopButton from './Components/ScrollToTop/ScrollToTopButton';
 
 const App = () => {
 	return (
@@ -43,7 +46,10 @@ const App = () => {
 				<Route path="/prison" element={<PrisonRehabilitation />} />
 				<Route path="/recovery" element={<RehabilitationRecovery />} />
 				<Route path="/skill" element={<SkillDevelopment />} />
+				<Route path="/maingallery" element={<MainGallery />} />
 			</Routes>
+			<ScrollToTopButton />
+			<Footer />
 		</div>
 	);
 };

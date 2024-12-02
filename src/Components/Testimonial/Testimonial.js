@@ -53,7 +53,7 @@ const Testimonial = () => {
 
 	return (
 		<div className="testimonial-container">
-			<h1>What Our Clients Say</h1>
+			<h1>What Our People Say</h1>
 			<div className="testimonial-card">
 				<p className="testimonial-text">"{testimonials[current].text}"</p>
 				<div className="testimonial-author">

@@ -89,7 +89,7 @@ const Gallery = () => {
 			)}
 
 			<div className="view-gallery-link">
-				<Link to="/full-gallery">View Full Gallery</Link>
+				<Link to="/maingallery">View Full Gallery</Link>
 			</div>
 		</div>
 	);
