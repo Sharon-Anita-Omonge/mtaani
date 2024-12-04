@@ -13,6 +13,8 @@
 	padding: 40px;
 	margin: 20px 0;
 	position: relative;
+	height: 200px; /* Adjust based on your tallest testimonial */
+	overflow: hidden; /* Prevent overflow if content is taller */
 }
 
 .testimonial-text {

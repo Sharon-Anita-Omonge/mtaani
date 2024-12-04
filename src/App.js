@@ -18,6 +18,7 @@ import Gallery from './Components/Gallery/Gallery';
 import MainGallery from './Components/Gallery/MainGallery';
 import Footer from './Components/Footer/Footer';
 import ScrollToTopButton from './Components/ScrollToTop/ScrollToTopButton';
+import Partners from './Components/Partners/Partners';
 
 const App = () => {
 	return (
@@ -34,6 +35,7 @@ const App = () => {
 							<Causes />
 							<VolunteerForm />
 							<TeamPage />
+							<Partners />
 							<EventsAndBlogs />
 							<Testimonial />
 							<Gallery />

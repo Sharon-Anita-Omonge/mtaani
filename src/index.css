@@ -55,16 +55,6 @@ a {
 	padding-left: 10%;
 	padding-right: 10%;
 }
-.hero {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-.hero-img {
-	width: 100%;
-	height: 85vh;
-	object-fit: cover;
-}
 
 p {
 	line-height: 1.5;

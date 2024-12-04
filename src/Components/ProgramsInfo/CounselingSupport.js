@@ -5,7 +5,7 @@ import Sidebar from './SideList';
 const CounselingSupport = () => {
 	return (
 		<div id="counseling-support">
-			<div className="counseling-hero">
+			<div className="prog-hero">
 				<h1>Counseling and Support Programs</h1>
 			</div>
 			<div className="details">
