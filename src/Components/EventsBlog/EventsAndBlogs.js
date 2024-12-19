@@ -85,7 +85,7 @@ const EventsAndBlogs = () => {
 				</p>
 				<button
 					className="blog-button"
-					onClick={() => (window.location.href = '/blog')}
+					onClick={() => (window.location.href = '/drugabuse')}
 				>
 					Go to Blog Page
 				</button>

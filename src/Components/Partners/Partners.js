@@ -5,11 +5,14 @@ import kisumucounty from '../../assets/kisumu-county.jpeg';
 import maishamed from '../../assets/maishamed.png';
 
 const Partners = () => {
-	const partners = [
-		{ id: 'nacada', src: nacada, name: 'NACADA' },
-		{ id: 'kisumucounty', src: kisumucounty, name: 'Kisumu County' },
-		{ id: 'maishamed', src: maishamed, name: 'Maisha Med' },
-	];
+	const partners = useMemo(
+		() => [
+			{ id: 'nacada', src: nacada, name: 'NACADA' },
+			{ id: 'kisumucounty', src: kisumucounty, name: 'Kisumu County' },
+			{ id: 'maishamed', src: maishamed, name: 'Maisha Med' },
+		],
+		[]
+	);
 
 	// Memoize extendedPartners to avoid recalculating on every render
 	const extendedPartners = useMemo(

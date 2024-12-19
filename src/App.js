@@ -19,6 +19,11 @@ import MainGallery from './Components/Gallery/MainGallery';
 import Footer from './Components/Footer/Footer';
 import ScrollToTopButton from './Components/ScrollToTop/ScrollToTopButton';
 import Partners from './Components/Partners/Partners';
+import MentalHealth from './Components/Blog/MentalHealth';
+import Rehab from './Components/Blog/Rehab';
+import Education from './Components/Blog/Education';
+import Drugabuse from './Components/Blog/Drugabuse';
+import Crime from './Components/Blog/Crime';
 
 const App = () => {
 	return (
@@ -49,6 +54,11 @@ const App = () => {
 				<Route path="/recovery" element={<RehabilitationRecovery />} />
 				<Route path="/skill" element={<SkillDevelopment />} />
 				<Route path="/maingallery" element={<MainGallery />} />
+				<Route path="/mental" element={<MentalHealth />} />
+				<Route path="/rehab" element={<Rehab />} />
+				<Route path="/education" element={<Education />} />
+				<Route path="/drugabuse" element={<Drugabuse />} />
+				<Route path="/crime" element={<Crime />} />
 			</Routes>
 			<ScrollToTopButton />
 			<Footer />

@@ -64,6 +64,7 @@ p {
 
 h3 {
 	font-size: 1.5rem;
+	color: #343434;
 }
 h4 {
 	font-size: 1.2rem;
@@ -78,6 +79,9 @@ h1 {
 	color: var(--darkgreen);
 	padding: 10px 0;
 	font-weight: 900;
+}
+h2 {
+	font-size: 2rem;
 }
 li a {
 	text-decoration: none;
