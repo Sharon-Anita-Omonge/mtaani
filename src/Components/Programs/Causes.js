@@ -24,7 +24,7 @@ const Causes = () => {
 						Create safe spaces where youth can share their experiences and learn
 						from each other.
 					</p>
-					<Link to="/counselling">Learn More</Link>
+					<Link to="/awareness">Learn More</Link>
 				</div>
 				<div className="program-card">
 					<img src={sports} alt="sports" />
@@ -43,7 +43,7 @@ const Causes = () => {
 						Encourage physical activities and healthcheck to promote a healthy
 						lifestyle.
 					</p>
-					<Link to="/programs">Learn More</Link>
+					<Link to="/rehab">Learn More</Link>
 				</div>
 			</div>
 		</div>

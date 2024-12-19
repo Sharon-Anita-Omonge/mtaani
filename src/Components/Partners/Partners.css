@@ -23,10 +23,10 @@
 }
 
 .slide img {
-	width: 250px; /* Fixed width */
-	height: 200px; /* Fixed height */
+	width: 200px; /* Fixed width */
+	height: 150px; /* Fixed height */
 	object-fit: cover; /* Ensures the image fills the box proportionally */
-	padding: 20px;
+	padding: 10px;
 }
 
 /*mmedia query*/
