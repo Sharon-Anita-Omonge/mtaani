@@ -29,6 +29,7 @@ const App = () => {
 	return (
 		<div>
 			<Navbar />
+			<ScrollToTopButton />
 			<Routes>
 				<Route
 					path="/"
@@ -60,7 +61,7 @@ const App = () => {
 				<Route path="/drugabuse" element={<Drugabuse />} />
 				<Route path="/crime" element={<Crime />} />
 			</Routes>
-			<ScrollToTopButton />
+
 			<Footer />
 		</div>
 	);

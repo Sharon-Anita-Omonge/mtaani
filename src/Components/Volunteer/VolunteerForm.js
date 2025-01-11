@@ -54,7 +54,7 @@ const VolunteerForm = () => {
 	};
 
 	return (
-		<div className="volunteer-main">
+		<div className="volunteer-main" id="volunteer">
 			<h1>What you can do to help</h1>
 
 			<div className="volunteer-form-container">

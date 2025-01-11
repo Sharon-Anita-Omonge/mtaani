@@ -57,7 +57,7 @@ const ContactForm = () => {
 	};
 
 	return (
-		<div className="main-contact">
+		<div className="main-contact" id="contact">
 			<h1>Get In Touch With Us</h1>
 
 			<div className="contact-wrapper">

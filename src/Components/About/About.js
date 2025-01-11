@@ -11,7 +11,7 @@ const About = () => {
 	};
 
 	return (
-		<div className="about-container">
+		<div className="about-container" id="about">
 			{/* Left: Text + Collapsible Section */}
 			<div className="about-left">
 				<h1 className="about-title">What we do here</h1>

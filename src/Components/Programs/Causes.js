@@ -7,7 +7,7 @@ import health from '../../assets/hero4.png';
 
 const Causes = () => {
 	return (
-		<div className="causes-container">
+		<div className="causes-container" id="causes">
 			<div className="causes-header">
 				<h1>Our Popular Programs</h1>
 				<p>
