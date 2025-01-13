@@ -17,7 +17,7 @@ const teamData = [
 		role: 'Founder & CEO',
 		occupation: 'Entrepreneur',
 		phone: '+163 2564 3657',
-		email: 'alexjulian@gmail.com',
+		email: 'tomerick@maishamtaani.com',
 		image: [Tompo],
 	},
 	{
@@ -26,7 +26,7 @@ const teamData = [
 		role: 'Executive Director',
 		occupation: 'Banker',
 		phone: '+123 4567 8910',
-		email: 'emilysmith@gmail.com',
+		email: 'otienod@maishamtaani.com',
 		image: [Denis],
 	},
 	{
@@ -35,7 +35,7 @@ const teamData = [
 		role: 'Communication Manager',
 		occupation: 'Banker',
 		phone: '+198 7654 3210',
-		email: 'johndoe@gmail.com',
+		email: 'jalosi@maishamtaani.com',
 		image: [jenifer],
 	},
 	{
@@ -44,7 +44,7 @@ const teamData = [
 		role: 'Administrative Manager',
 		occupation: 'Banker',
 		phone: '+198 7654 3210',
-		email: 'johndoe@gmail.com',
+		email: 'bokoko@maishamtaani.com',
 		image: [okoko],
 	},
 	{
@@ -53,7 +53,7 @@ const teamData = [
 		role: 'Programme Manager',
 		occupation: 'Banker',
 		phone: '+198 7654 3210',
-		email: 'johndoe@gmail.com',
+		email: 'dochanji@maishamtaani.com',
 		image: [David],
 	},
 	{
@@ -62,7 +62,7 @@ const teamData = [
 		role: 'Patron',
 		occupation: 'Banker',
 		phone: '+198 7654 3210',
-		email: 'johndoe@gmail.com',
+		email: 'eoketch@maishamtaani.com',
 		image: [wallan],
 	},
 	{
@@ -71,7 +71,7 @@ const teamData = [
 		role: 'Volunteer',
 		occupation: 'Gender Expert',
 		phone: '+254 769 233 898',
-		email: 'anitaomonge@maishamtaani.com',
+		email: 'anita@maishamtaani.com',
 		image: [anita],
 	},
 	{
@@ -80,7 +80,7 @@ const teamData = [
 		role: 'Volunteer',
 		occupation: 'Banker',
 		phone: '+198 7654 3210',
-		email: 'johndoe@gmail.com',
+		email: 'Yvette@maishamtaani.com',
 		image: [Yvette],
 	},
 ];
