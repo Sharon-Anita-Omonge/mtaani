@@ -99,3 +99,96 @@
 	display: block;
 	color: var(--green);
 }
+
+/* Media Queries for Smaller Screens */
+
+/* For tablets (min-width: 768px) */
+@media (max-width: 768px) {
+	.contact-wrapper {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.contact-form-container {
+		flex: 1 1 100%;
+		margin-right: 0;
+	}
+
+	.contact-info {
+		flex: 1 1 100%;
+		margin-top: 20px;
+	}
+
+	.contact-form input,
+	.contact-form textarea,
+	.contact-form button {
+		width: 100%;
+	}
+}
+
+/* For phones (min-width: 480px) */
+@media (max-width: 480px) {
+	.contact-wrapper {
+		flex-direction: column;
+		padding: 10px;
+	}
+
+	.contact-form-container {
+		flex: 1 1 100%;
+		margin-right: 0;
+	}
+
+	.contact-info {
+		flex: 1 1 100%;
+		padding: 10px;
+	}
+
+	.contact-form input,
+	.contact-form textarea,
+	.contact-form button {
+		width: 100%;
+		padding: 12px;
+	}
+
+	.contact-info h2 {
+		font-size: 18px;
+	}
+
+	.contact-info p,
+	.contact-info a {
+		font-size: 14px;
+	}
+
+	.success-message,
+	.error-message {
+		font-size: 14px;
+	}
+}
+
+/* For smaller screens (320px and below) */
+@media (max-width: 320px) {
+	.contact-wrapper {
+		padding: 5px;
+	}
+
+	.contact-form input,
+	.contact-form textarea,
+	.contact-form button {
+		font-size: 14px;
+		padding: 8px;
+	}
+
+	.contact-info h2 {
+		font-size: 16px;
+	}
+
+	.contact-info p,
+	.contact-info a {
+		font-size: 12px;
+	}
+
+	.success-message,
+	.error-message {
+		font-size: 12px;
+	}
+}

@@ -1,10 +1,13 @@
 .volunteer-main {
 	background-image: url('../../assets/hands3.jpeg');
-	background-size: cover;
+	background-size: cover; /* Ensures the image scales to cover the whole section */
+	background-repeat: no-repeat; /* Prevents the image from repeating */
+	background-position: center; /* Centers the image within the container */
 	background-blend-mode: multiply;
 	background-color: rgba(0, 0, 0, 0.5);
 	padding: 20px;
 }
+
 .volunteer-form-container {
 	display: flex;
 	background-attachment: fixed;
@@ -130,4 +133,71 @@ button:hover {
 .error-message {
 	background: #dc3545;
 	color: #fff;
+}
+
+/*media query*/
+
+@media (max-width: 768px) {
+	.volunteer-main {
+		padding: 10px;
+		background-size: contain;
+	}
+
+	.volunteer-form-container {
+		flex-direction: column-reverse;
+		padding: 20px 0;
+	}
+
+	.left-section {
+		padding: 10px;
+		text-align: center;
+	}
+
+	.form-wrapper {
+		width: 90%;
+		margin: 0 auto;
+		padding: 15px;
+	}
+
+	input,
+	textarea {
+		font-size: 14px;
+		padding: 8px;
+	}
+
+	button {
+		font-size: 14px;
+		padding: 8px;
+	}
+}
+
+@media (max-width: 480px) {
+	.volunteer-form-container {
+		flex-direction: column-reverse;
+		padding: 20px 0;
+	}
+
+	.left-section h1 {
+		font-size: 1.5rem;
+	}
+
+	.left-section p {
+		font-size: 1rem;
+	}
+
+	.donate-button {
+		font-size: 0.9rem;
+		padding: 8px 15px;
+	}
+
+	input,
+	textarea {
+		font-size: 12px;
+		padding: 6px;
+	}
+
+	button {
+		font-size: 12px;
+		padding: 6px;
+	}
 }
