@@ -7,15 +7,15 @@ const StatsSection = () => {
 		<section className="stats-section container">
 			<div className="stat-item">
 				<h2>5+ </h2>
-				<p>Support Programs</p>
+				<p> Programs</p>
 			</div>
 			<div className="stat-item">
-				<h2>10+</h2>
-				<p>Supporters</p>
+				<h2>5+</h2>
+				<p>Partners</p>
 			</div>
 			<div className="stat-item">
 				<h2>20+</h2>
-				<p>Alliance Members</p>
+				<p> Members</p>
 			</div>
 		</section>
 	);
