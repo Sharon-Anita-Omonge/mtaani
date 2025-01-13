@@ -1,4 +1,4 @@
-/* Container Styling */
+/* Base Container Styling */
 .about-container {
 	display: flex;
 	align-items: stretch; /* Ensures both sides are the same height */
@@ -9,6 +9,7 @@
 	background-color: #f9f9f9;
 	color: #333;
 	margin-bottom: 5%;
+	overflow-x: hidden;
 }
 
 /* Left Section: Text & Collapsibles */
@@ -89,4 +90,101 @@
 	object-fit: cover; /* Ensures the image maintains its aspect ratio while filling */
 	border-radius: 10px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* For Tablets (768px to 870px) */
+@media (max-width: 870px) {
+	.about-container {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	.about-left,
+	.about-right {
+		max-width: 100%;
+		flex: none;
+	}
+
+	.about-title {
+		font-size: 1.6rem;
+		order: 1;
+	}
+
+	.collapsible-header {
+		font-size: 1.1rem;
+		padding: 0.8rem;
+		order: 3;
+	}
+	div.about-right {
+		order: 2 !important;
+	}
+}
+
+/* For Phones (480px to 767px) */
+@media (max-width: 767px) {
+	.about-container {
+		flex-direction: column; /* Reverse the stacking order */
+		padding: 1rem;
+		gap: 1rem;
+	}
+
+	.about-left,
+	.about-right {
+		max-width: 100%;
+		flex: none;
+	}
+
+	.about-title {
+		font-size: 1.4rem;
+	}
+
+	.about-description {
+		font-size: 1rem;
+	}
+
+	.collapsible-header {
+		font-size: 1rem;
+		padding: 0.7rem;
+	}
+
+	.collapsible-body {
+		font-size: 0.9rem;
+	}
+	div.about-right {
+		order: 2 !important;
+	}
+}
+
+/* For Small Screens (320px to 480px) */
+@media (max-width: 480px) {
+	.about-container {
+		flex-direction: column; /* Reverse the stacking order */
+		padding: 0.5rem;
+	}
+
+	.about-title {
+		font-size: 1.2rem;
+	}
+
+	.about-description {
+		font-size: 0.9rem;
+	}
+
+	.collapsible-header {
+		font-size: 0.9rem;
+		padding: 0.5rem;
+	}
+
+	.collapsible-body {
+		font-size: 0.8rem;
+	}
+
+	.about-image {
+		width: 100%;
+		height: auto; /* Ensures proper scaling on small screens */
+	}
+	div.about-right {
+		order: 2 !important;
+	}
 }
