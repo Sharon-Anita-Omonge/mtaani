@@ -85,3 +85,33 @@
 .next-button:hover {
 	color: var(--green);
 }
+
+/* Media Queries */
+
+/* For large tablets and small desktops (up to 1024px) */
+@media (max-width: 1024px) {
+	.gallery-grid {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+/* For tablets (up to 768px) */
+@media (max-width: 768px) {
+	.gallery-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.gallery-image {
+		height: 180px; /* Adjust the image height */
+	}
+}
+
+/* For mobile devices (up to 480px) */
+@media (max-width: 350px) {
+	.gallery-grid {
+		grid-template-columns: 1fr; /* Single column */
+	}
+	.gallery-image {
+		height: 150px;
+		object-fit: cover; /* Adjust the image height */
+	}
+}
