@@ -11,16 +11,16 @@
 	gap: 20px;
 	align-items: start;
 }
-
 .team-thumbnails {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr); /* Two thumbnails per row */
+	display: flex; /* Use flexbox for horizontal alignment */
+	flex-wrap: wrap; /* Allow wrapping when the screen is smaller */
+	justify-content: center; /* Center the thumbnails */
 	gap: 10px; /* Add spacing between thumbnails */
 }
 
 .thumbnail {
-	width: 80px; /* Set a fixed width for thumbnails */
-	height: 80px; /* Keep thumbnails square */
+	width: 80px; /* Fixed width for thumbnails */
+	height: 80px; /* Fixed height for thumbnails */
 	object-fit: cover; /* Crop thumbnails uniformly */
 	cursor: pointer;
 	border: 2px solid transparent; /* Default border */
@@ -75,4 +75,67 @@
 
 .team-details strong {
 	font-weight: bold; /* Highlight labels */
+}
+
+/* For tablets (screen width between 600px and 900px) */
+@media screen and (max-width: 860px) and (min-width: 600px) {
+	.team-content {
+		grid-template-columns: 2fr; /* Stack all sections vertically */
+		gap: 10px;
+	}
+
+	.team-thumbnails {
+		grid-template-columns: repeat(
+			4,
+			1fr
+		); /* Display thumbnails in four columns */
+	}
+
+	.thumbnail {
+		width: 60px; /* Smaller thumbnails */
+		height: 60px;
+	}
+
+	.selected-image {
+		width: 250px; /* Adjust main image size */
+		height: 250px;
+	}
+
+	.team-details {
+		align-items: center; /* Center the details */
+		text-align: center;
+	}
+}
+
+/* For mobile devices (screen width less than 600px) */
+@media screen and (max-width: 600px) {
+	.team-content {
+		grid-template-columns: 1fr; /* Stack all sections vertically */
+	}
+
+	/* Adjust thumbnail sizes for smaller screens */
+	@media screen and (max-width: 600px) {
+		.thumbnail {
+			width: 60px; /* Smaller thumbnails for mobile */
+			height: 60px;
+		}
+
+		.team-thumbnails {
+			gap: 5px; /* Reduce spacing between thumbnails */
+		}
+	}
+
+	.selected-image {
+		width: 200px; /* Adjust main image size */
+		height: 200px;
+	}
+
+	.team-details {
+		align-items: center; /* Center the details */
+		text-align: center;
+	}
+
+	.team-container {
+		padding: 10px; /* Reduce padding for smaller screens */
+	}
 }
