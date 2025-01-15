@@ -41,8 +41,8 @@ const CounselingSupport = () => {
 						<h2>Educational Programs</h2>
 						<p>
 							Education is a powerful tool for prevention, and our programs
-							focus on equipping youth with the knowledge and skills to make
-							positive choices.
+							focus on equipping youth and other vulnerable groups with the
+							knowledge and skills to make positive choices.
 						</p>
 						<p>
 							We collaborate with schools to incorporate substance abuse and

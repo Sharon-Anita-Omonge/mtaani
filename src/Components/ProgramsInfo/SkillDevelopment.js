@@ -47,6 +47,20 @@ const SkillDevelopment = () => {
 							reducing their vulnerability to destructive behaviors.
 						</p>
 					</div>
+					<div>
+						<h2>Digital Literacy</h2>
+						<p>
+							We provide training in digital literacy to equip youth with
+							essential technology skills. Participants learn how to use
+							computers, navigate the internet safely, and leverage digital
+							tools for education and employment.
+						</p>
+						<p>
+							This knowledge helps them stay competitive in an increasingly
+							digital world and avoid the risks associated with online
+							platforms.
+						</p>
+					</div>
 				</div>
 
 				<div className="details-list">
