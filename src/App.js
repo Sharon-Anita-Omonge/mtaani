@@ -25,12 +25,13 @@ import Education from './Components/Blog/Education';
 import Drugabuse from './Components/Blog/Drugabuse';
 import Crime from './Components/Blog/Crime';
 import ClimateAction from './Components/ProgramsInfo/ClimateAction';
+import ScrollToTop from './Components/ScrollToTop/ScrollToTop';
 
 const App = () => {
 	return (
 		<div>
 			<Navbar />
-			<ScrollToTopButton />
+			<ScrollToTop />
 			<Routes>
 				<Route
 					path="/"
@@ -63,7 +64,7 @@ const App = () => {
 				<Route path="/crime" element={<Crime />} />
 				<Route path="/climate" element={<ClimateAction />} />
 			</Routes>
-
+			<ScrollToTopButton />
 			<Footer />
 		</div>
 	);
