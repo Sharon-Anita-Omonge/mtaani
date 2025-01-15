@@ -1,4 +1,8 @@
 /* General Styles */
+/* Navbar.css */
+html {
+	scroll-padding-top: 80px; /* Adjust this value to match your navbar height */
+}
 
 .navbar {
 	display: flex;

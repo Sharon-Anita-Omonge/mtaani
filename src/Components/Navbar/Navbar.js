@@ -10,6 +10,11 @@ const Navbar = () => {
 		setIsMenuOpen(!isMenuOpen);
 	};
 
+	// Close the menu when a link is clicked
+	const handleLinkClick = () => {
+		setIsMenuOpen(false);
+	};
+
 	return (
 		<nav className="navbar container">
 			<div className="navbar-header">
@@ -24,22 +29,34 @@ const Navbar = () => {
 			<div className={`navbar-menu ${isMenuOpen ? 'open' : ''}`}>
 				<ul className="navbar-links">
 					<li>
-						<a href="#home">Home</a>
+						<a href="#home" onClick={handleLinkClick}>
+							Home
+						</a>
 					</li>
 					<li>
-						<a href="#about">About Us</a>
+						<a href="#about" onClick={handleLinkClick}>
+							About Us
+						</a>
 					</li>
 					<li>
-						<a href="#causes">Programs</a>
+						<a href="#causes" onClick={handleLinkClick}>
+							Programs
+						</a>
 					</li>
 					<li>
-						<a href="#volunteer">Volunteer</a>
+						<a href="#volunteer" onClick={handleLinkClick}>
+							Volunteer
+						</a>
 					</li>
 					<li>
-						<a href="#contact">Contact</a>
+						<a href="#contact" onClick={handleLinkClick}>
+							Contact
+						</a>
 					</li>
 				</ul>
-				<button className="navbar-donate">Donate</button>
+				<button className="navbar-donate" onClick={handleLinkClick}>
+					Donate
+				</button>
 			</div>
 		</nav>
 	);
