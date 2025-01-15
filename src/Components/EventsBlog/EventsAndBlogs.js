@@ -90,7 +90,7 @@ const EventsAndBlogs = () => {
 					Explore our latest blog posts for inspiring stories, updates, and
 					resources to make a difference!
 				</p>
-				<NavLink to="/crime">
+				<NavLink to="/drugabuse">
 					<button className="blog-button">Go to Blog Page</button>
 				</NavLink>
 			</div>
