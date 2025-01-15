@@ -24,6 +24,7 @@ import Rehab from './Components/Blog/Rehab';
 import Education from './Components/Blog/Education';
 import Drugabuse from './Components/Blog/Drugabuse';
 import Crime from './Components/Blog/Crime';
+import ClimateAction from './Components/ProgramsInfo/ClimateAction';
 
 const App = () => {
 	return (
@@ -60,6 +61,7 @@ const App = () => {
 				<Route path="/education" element={<Education />} />
 				<Route path="/drugabuse" element={<Drugabuse />} />
 				<Route path="/crime" element={<Crime />} />
+				<Route path="/climate" element={<ClimateAction />} />
 			</Routes>
 
 			<Footer />

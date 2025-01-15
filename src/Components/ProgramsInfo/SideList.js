@@ -56,6 +56,14 @@ const Sidebar = () => {
 						Prison Rehabilitation Programs
 					</NavLink>
 				</li>
+				<li>
+					<NavLink
+						to="/climate"
+						className={({ isActive }) => (isActive ? 'active' : '')}
+					>
+						Engagement for Climate Action
+					</NavLink>
+				</li>
 			</ul>
 		</aside>
 	);

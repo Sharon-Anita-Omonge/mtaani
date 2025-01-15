@@ -22,6 +22,7 @@ import festival3 from '../../assets/festival3.jpeg';
 import climatechange1 from '../../assets/climatechange1.jpeg';
 import climatechange2 from '../../assets/climatechange2.jpeg';
 import climatechange3 from '../../assets/climatechange3.jpeg';
+import schoolvisit from '../../assets/schoolvisit.jpeg';
 import gallery1 from '../../assets/gallery1.jpeg';
 import gallery2 from '../../assets/gallery2.jpeg';
 import gallery3 from '../../assets/gallery3.jpeg';
@@ -74,6 +75,14 @@ import gallery50 from '../../assets/gallery50.jpeg';
 import gallery51 from '../../assets/gallery51.jpeg';
 import gallery52 from '../../assets/gallery52.jpeg';
 import gallery53 from '../../assets/gallery53.jpeg';
+import chapo1 from '../../assets/chapo1.jpg';
+import chapo2 from '../../assets/chapo2.jpg';
+import chapo3 from '../../assets/chapo3.jpg';
+import chapo4 from '../../assets/chapo4.jpg';
+import chapo5 from '../../assets/chapo5.jpg';
+import chapo6 from '../../assets/chapo6.jpg';
+import chapo7 from '../../assets/chapo7.jpg';
+import chapo8 from '../../assets/chapo8.jpg';
 
 // Add all images to an array
 const images = [
@@ -84,6 +93,14 @@ const images = [
 	Prisonfootball5,
 	Prisonfootball6,
 	Prisonfootball7,
+	chapo1,
+	chapo2,
+	chapo3,
+	chapo4,
+	chapo5,
+	chapo6,
+	chapo7,
+	chapo8,
 	under16football1,
 	under16football2,
 	under16football3,
@@ -97,6 +114,7 @@ const images = [
 	climatechange1,
 	climatechange2,
 	climatechange3,
+	schoolvisit,
 	gallery1,
 	gallery2,
 	gallery3,
