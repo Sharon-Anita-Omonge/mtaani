@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './EventsAndBlogs.css';
+import { NavLink } from 'react-router-dom';
 
 const EventsAndBlogs = () => {
 	const events = [
@@ -89,12 +90,9 @@ const EventsAndBlogs = () => {
 					Explore our latest blog posts for inspiring stories, updates, and
 					resources to make a difference!
 				</p>
-				<button
-					className="blog-button"
-					onClick={() => (window.location.href = '/drugabuse')}
-				>
-					Go to Blog Page
-				</button>
+				<NavLink to="/drugabuse">
+					<button className="blog-button">Go to Blog Page</button>
+				</NavLink>
 			</div>
 		</div>
 	);

@@ -43,7 +43,7 @@ const Causes = () => {
 						Encourage physical activities and healthcheck to promote a healthy
 						lifestyle.
 					</p>
-					<Link to="/rehab">Learn More</Link>
+					<Link to="/recovery">Learn More</Link>
 				</div>
 			</div>
 		</div>
