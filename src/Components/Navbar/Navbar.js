@@ -11,16 +11,14 @@ const Navbar = () => {
 	};
 
 	return (
-		<nav className="navbar">
+		<nav className="navbar container">
 			<div className="navbar-header">
 				<NavLink to="/">
 					<img className="logo" src={logo} alt="Logo" />
 				</NavLink>
-				<button className="hamburger" onClick={toggleMenu}>
-					<span className="bar"></span>
-					<span className="bar"></span>
-					<span className="bar"></span>
-				</button>
+				<div className="hamburger" onClick={toggleMenu}>
+					☰
+				</div>
 			</div>
 
 			<div className={`navbar-menu ${isMenuOpen ? 'open' : ''}`}>
